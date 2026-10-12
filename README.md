@@ -73,3 +73,7 @@ pwsh -NoProfile -File .\build-loop.ps1
 - 跨软件接口与权限说明：本文件第 2 节
 - 功能验收结果：[验收证据](evidence/验收证据.md)
 - 发布结果：[开源发布说明](开源发布说明.md)
+
+## 7. 公开仓库
+
+[GitHub：cyGao8399/cross-software-minimal-loop](https://github.com/cyGao8399/cross-software-minimal-loop)
