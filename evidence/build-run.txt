@@ -1,4 +1,4 @@
-run_at=2026-10-12T13:22:34
+run_at=2026-10-12T13:27:51
 input=C:\Users\gcy\Desktop\深度求索\outputs\跨软件最小闭环\scripts\..\data\customer_intake.csv
 records=3
 knowledge_output=C:\Users\gcy\Desktop\深度求索\outputs\跨软件最小闭环\scripts\..\knowledge\客户需求知识卡片-自动生成.md

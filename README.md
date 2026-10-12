@@ -22,7 +22,7 @@
 | 工具/载体 | 负责什么 | 输入 | 输出 | 权限边界 |
 | --- | --- | --- | --- | --- |
 | [飞书客户跟踪 Base](https://uiw4jqvloec.feishu.cn/base/NsJkbn9OTau8EJscDQaclBYIn8E?table=tbliJWznaXpJs0x2&view=vewj28KDug) | 收集客户资料、更新状态、跟踪截止日期 | 客户需求、负责人、附件 | 筛选后的 CSV/表格记录 | 仅业务成员可编辑；不放密码、身份证和支付信息 |
-| `data/customer_intake.csv` | 脱敏后的交换文件 | 飞书导出记录 | 本地可重复处理的结构化输入 | 只保留虚构或脱敏字段 |
+| `data/customer_intake.csv` | 脱敏后的交换文件 | 飞书模拟导出记录 | 本地可重复处理的结构化输入 | 只保留虚构或脱敏字段 |
 | `scripts/build-loop.ps1` | 规则化转换 | CSV | 知识卡片、任务台账、运行日志 | 本地运行；不调用外部 API |
 | `knowledge/` | 形成可检索知识库 | 客户背景、约束、验收标准 | Markdown 知识卡片 | 可公开内容；禁止写入客户隐私 |
 | `tasks/` 与 `delivery/` | 拆分任务、跟踪交付 | 知识卡片和方案 | 任务台账、交付清单 | 由项目成员维护；状态变更留痕 |
